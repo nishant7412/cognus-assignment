@@ -1,0 +1,204 @@
+*{
+    border: 0px;
+    padding: 0px;
+  
+
+}
+
+.banner {
+    display: flex;
+    background-color: #2A5E31;
+    justify-content: space-between;
+    margin-left: 120px;
+   
+}
+.banner-text{
+    color: white;
+    text-align: center;
+    margin-top: 13px;
+
+}
+
+.mall-bold-text{
+    text-align: center;
+    display: block;
+}
+
+
+.right-banner{
+    
+    color: white;
+    display: flex;
+    justify-content:end;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 100px;
+    
+
+}
+
+.list1{
+    color: white;
+    display: flex;
+    justify-content:end;
+    list-style: none;
+    justify-content: space-between;
+}
+.list2{
+    color: white;
+    display: flex;
+    justify-content:end;
+    list-style: none;
+    justify-content: space-between;
+   
+}
+
+
+
+.logo{
+    top: 61px;
+left: 98px;
+width: 145px;
+height: 45px;
+margin-left: 120px;
+margin-top: 4px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right-nav{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+/*third line*/
+
+.nav2{
+    text-decoration: none;
+    
+}
+
+
+nav2{
+    position: relative;
+}
+nav2 ul li a{
+    text-decoration: none;
+}
+/* menu bar*/
+.menu-bar{
+    text-align: center;
+    margin-left: 120px;
+}
+
+.menu-bar ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.menu-bar ul li{
+    width: 25px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+}
+
+.sub-menu{
+
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    color: #D7F0DB;
+   
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+    background-color: #D7F0DB;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+    width: 40px;
+  padding: 10px;
+  border-bottom: 1px line black;
+  border-radius: 0;
+  text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+color: #D7F0DB;
+}
+.main{
+    display: flex;
+}
+.main p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-right img{
+    width: 750px;
+    height: 700px;
+    margin-top: 10px;
+    
+
+
+}
+.main-left p{
+    text-align: center;
+}
+.main-left h1{
+    margin-left: 120px;
+
+}
+.centre-body{
+    display: inline block;
+}
+#line1{
+    display: flex;
+    align-items: center;
+
+}
+#line1 img{
+    width: 50px;
+    margin-left: 120px;
+}
+#line2{
+    display: flex;
+    align-items: center;
+
+}
+#line2 img{
+    width: 50px;
+    margin-left: 120px;
+}
+#line3{
+    display: flex;
+    align-items: center;
+
+}
+#line3 img{
+    width: 50px;
+    margin-left: 120px;
+}
+.main-left button{
+    color: white;
+    margin-top: 50px;
+    margin-left: 120px;
+    
+    padding: 10px;
+    background-color: #2A5E31;
+    border-radius: 50px;
+}
+.main-left button:hover{
+    color: aliceblue;
+}
